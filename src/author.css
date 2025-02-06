@@ -1,0 +1,86 @@
+/* Fonts */
+@font-face {
+    font-family: 'Tinos Regular';
+    src: url("../fonts/Tinos-Regular.ttf");
+}
+
+@font-face {
+    font-family: 'Tinos Bold';
+    src: url("../fonts/Tinos-Bold.ttf");
+}
+
+@font-face {
+    font-family: 'Tinos Italic';
+    src: url("../fonts/Tinos-Italic.ttf");
+}
+
+body {
+    font-family: 'Tinos Regular', serif;
+    background-color: #CBD2D0;
+    margin: 0;
+    padding: 0 0;
+}
+
+/* Main */
+
+main {
+    height: 100dvh;
+}
+
+/* Masthead */
+#masthead {
+    margin: 0;
+    padding: .5rem 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1B1B1B;
+}
+
+#masthead h1 {
+    font-family: 'Tinos Bold', serif;
+    padding-left: 1.5rem;
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+/* Navigation */
+
+#masthead nav ul {
+    display: flex;
+}
+
+#masthead nav ul li {
+    list-style: none;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+}
+
+#masthead nav ul li a {
+    font-style: normal;
+    text-decoration: none;
+    color: #fff;
+}
+
+#masthead nav ul li a:hover {
+    color: #CBD2D0;
+    text-decoration: underline;
+}
+
+/* Footer */
+
+footer {
+    padding: 0;
+    margin: 5rem 0 0;
+    background-color: #1B1B1B;
+}
+
+footer p {
+    text-align: center;
+    color: #CBD2D0;
+    margin: 0;
+    padding: 2.5rem 0;
+}

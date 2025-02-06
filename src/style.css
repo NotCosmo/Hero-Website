@@ -1,0 +1,358 @@
+/* Fonts */
+@font-face {
+    font-family: 'Tinos Regular';
+    src: url("../fonts/Tinos-Regular.ttf");
+}
+
+@font-face {
+    font-family: 'Tinos Bold';
+    src: url("../fonts/Tinos-Bold.ttf");
+}
+
+@font-face {
+    font-family: 'Tinos Italic';
+    src: url("../fonts/Tinos-Italic.ttf");
+}
+
+body {
+    font-family: 'Tinos Regular', serif;
+    background-color: #CBD2D0;
+    margin: 0;
+    padding: 0;
+}
+
+/* Masthead */
+#masthead {
+    margin: 0;
+    padding: .5rem 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1B1B1B;
+}
+
+#masthead h1 {
+    font-family: 'Tinos Bold', serif;
+    padding-left: 1.5rem;
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+/* Navigation */
+
+#masthead nav ul {
+    display: flex;
+}
+
+#masthead nav ul li {
+    list-style: none;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+}
+
+#masthead nav ul li a {
+    font-style: normal;
+    text-decoration: none;
+    color: #fff;
+}
+
+#masthead nav ul li a:hover {
+    color: #CBD2D0;
+    text-decoration: underline;
+}
+
+/* Main */
+
+main {
+    margin: 0;
+    padding: 0;
+    height: 100dvh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+main .author-content {
+    width: 40%;
+}
+
+main .author-content h1 {
+    padding: 0;
+    margin: 0;
+    font-size: 3.5rem;
+    color: #1b1b1b;
+}
+
+main .author-content h2 {
+    padding: 0;
+    margin: 0 3.5rem;
+    font-size: 1.75rem;
+    color: #1b1b1b;
+}
+
+main .author-content p {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin: 0;
+    font-size: 1rem;
+    text-align: center;
+    color: #1b1b1b;
+    width: 65%;
+}
+
+main .author-content p #awards-text a {
+    font-style: normal;
+    text-decoration: underline;
+}
+
+main .author-content p a {
+    text-decoration: none;
+    font-style: italic;
+}
+
+main .author-content p a:hover {
+    text-decoration: underline;
+}
+
+/* Full Bio Button */
+main .author-content h3 {
+    padding: 0;
+    margin: 0 6rem;
+    color: #1b1b1b;
+    text-align: center;
+    border: #1B1B1B solid 2px;
+    border-radius: 3px;
+    box-shadow: 2px 2px 2px #1B1B1B;
+    width: 30%;
+}
+
+main .author-content a {
+    color: #1b1b1b;
+    text-decoration: none;
+}
+
+@media (hover: hover) {
+    h3:hover {
+        font-size: 1.25rem;
+        background-color: #bbc4c1;
+    }
+}
+
+/*
+main .author-content h3 a:hover {
+    text-decoration: underline;
+    font-style: italic;
+}
+*/
+
+/* Image */
+.author-image img {
+    height: 360px;
+    width: 360px;
+    border: 5px solid #1b1B1B;
+    border-radius: 50%;
+}
+
+
+/* Inspiration // Why I chose R.F. Kuang */
+
+#inspiration {
+    border-top: 3px dashed #1B1B1B;
+    padding: 2.5rem 0;
+}
+
+#inspiration h1 {
+    padding-bottom: 2.5rem;
+    margin: 0;
+    font-size: 3rem;
+    color: #1B1B1B;
+    text-align: center;
+}
+
+
+#inspiration #fav-author {
+    margin-bottom: 5rem;
+    display: flex;
+    flex-direction: row;
+    justify-self: flex-end;
+    width: 50%;
+}
+
+#inspiration #fav-author h2 {
+    font-size: 1.5rem;
+    padding: 0.5rem 0;
+    margin: 0;
+    text-align: center;
+    border-bottom: 3px dotted #1B1B1B;
+}
+
+#inspiration #fav-author p {
+    font-size: 1.05rem;
+    padding: 1rem 1rem;
+    margin: 0 1rem 0 0;
+    width: 95%;
+    text-align: left;
+}
+
+
+#inspiration #fav-author div {
+    margin-right: 1rem;
+    border: 3px solid #1B1B1B;
+    border-radius: 20px;
+    box-shadow: 4px 4px 2px #1B1B1B;
+}
+
+#inspiration #cultural-impact {
+    margin-top: 5rem;
+    margin-bottom: 2.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-self: flex-start;
+    width: 50%;
+}
+
+#inspiration #cultural-impact h2 {
+    font-size: 1.5rem;
+    padding: 0.5rem 0;
+    margin: 0;
+    text-align: center;
+    border-bottom: 3px dotted #1B1B1B;
+}
+
+#inspiration #cultural-impact p {
+    font-size: 1.05rem;
+    padding: 1rem 1rem;
+    margin: 0 1rem 0 0;
+    width: 95%;
+    text-align: left;
+}
+
+#inspiration #cultural-impact div {
+    margin-left: 1rem;
+    border: 3px solid #1B1B1B;
+    border-radius: 20px;
+    box-shadow: 4px 4px 2px #1B1B1B;
+}
+
+
+/* Books */
+
+#books-section {
+    border-top: 3px dashed #1B1B1B;
+    padding: 2.5rem 0;
+}
+
+#books-section h1 {
+    font-size: 3rem;
+    color: #1b1b1b;
+    padding-bottom: 2.5rem;
+    margin: 0;
+    text-align: center;
+
+}
+
+#books-section .books {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+/*
+#books-section .books h2 {
+    font-family: 'Tinos Bold', serif;
+    font-size: 1.5rem;
+    color: #1b1b1b;
+    text-align: center;
+}
+ */
+
+/* Book Buttons */
+
+#books-section .books h2 {
+    margin-top: 1.5rem;
+    padding: .25rem 0;
+    font-size: 1.25rem;
+    font-style: normal;
+    text-align: center;
+    color: #1b1b1b;
+    border: 2px solid #1B1B1B;
+    border-radius: .5rem;
+    background-color: #CBD2D0;
+    box-shadow: 2px 2px 2px #1B1B1B;
+    width: 100%;
+}
+
+#books-section .books a {
+    text-align: center;
+    text-decoration: none;
+    color: #1B1B1B;
+}
+
+#books-section .books h2 a:hover {
+    color: red;
+}
+
+/* Book Images */
+
+#books-section .books img {
+    box-shadow: 4px 4px 4px 3px #1B1B1B;
+}
+
+.book {
+    width: 285px;
+    height: 428px;
+    margin: 1rem auto;
+    perspective: 1000px;
+    cursor: pointer;
+}
+
+.book-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+}
+
+.book:hover .book-inner {
+    transform: rotateY(180deg);
+}
+
+.book-cover, .book-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.5rem;
+}
+
+
+.book-back {
+    /* background: #8b5cf6; */
+    /* color: white; */
+    transform: rotateY(180deg);
+}
+
+
+/* Footer */
+
+footer {
+    padding: 0;
+    margin: 5rem 0 0;
+    background-color: #1B1B1B;
+}
+
+footer p {
+    text-align: center;
+    color: #CBD2D0;
+    margin: 0;
+    padding: 2.5rem 0;
+}
