@@ -24,7 +24,70 @@ body {
 /* Main */
 
 main {
-    height: 100dvh;
+    margin: 3rem 0;
+    padding: 0;
+    height: 100%;
+}
+
+main .about-content {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1rem;
+    border-left: 3px solid #1b1B1B;
+}
+
+main .main-container {
+    display: flex;
+    flex-direction: row;
+}
+
+main h1 {
+    padding-left: 1rem;
+    font-family: 'Tinos Regular', serif;
+}
+
+main h2 {
+    margin-top: .5rem;
+    margin-bottom: 0;
+    padding: 0 0 0 1.5rem;
+    font-family: 'Tinos Regular', serif;
+}
+
+main p {
+    margin: 1rem 0 0;
+    padding-left: 2rem;
+    font-family: 'Tinos Regular', serif;
+    width: 65%;
+}
+
+main h3 {
+    padding-left: 2rem;
+    font-family: 'Tinos Regular', serif;
+    font-size: 0.75rem;
+    color: #92a09b;
+}
+
+/* Author Image */
+
+main .img-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main img {
+    margin-right: 10rem;
+    width: 485px; /* 728x954 */
+    height: 636px;
+    border: 5px solid #1b1B1B;
+    border-radius: 20%;
+    box-shadow: 4px 4px 4px #1b1b1b;
+}
+
+main .img-container p {
+    font-size: 0.75rem;
+    padding-left: 9rem;
 }
 
 /* Masthead */
@@ -74,7 +137,7 @@ main {
 
 footer {
     padding: 0;
-    margin: 5rem 0 0;
+    margin-top: 0;
     background-color: #1B1B1B;
 }
 
