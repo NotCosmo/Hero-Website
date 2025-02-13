@@ -4,6 +4,9 @@ This website was made as part of an assignment for my year one Client Side Web D
 
 We were tasked to create a website about one of our heroes, in which case I have chosen Rebecca F. Kuang
 
+## Showcase
+
+![alttext](images/showcase.png)
 
 ## File Structure
 
