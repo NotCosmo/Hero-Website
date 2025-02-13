@@ -11,7 +11,7 @@ We were tasked to create a website about one of our heroes, in which case I have
 ## File Structure
 
 ```
-project
+Hero Website
 │   README.md
 │   LICENSE    
 │
