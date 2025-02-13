@@ -9,11 +9,6 @@
     src: url("../fonts/Tinos-Bold.ttf");
 }
 
-@font-face {
-    font-family: 'Tinos Italic';
-    src: url("../fonts/Tinos-Italic.ttf");
-}
-
 body {
     font-family: 'Tinos Regular', serif;
     background-color: #CBD2D0;
