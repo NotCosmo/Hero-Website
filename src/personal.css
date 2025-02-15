@@ -99,6 +99,7 @@ main .about-content {
     flex-direction: column;
     margin-left: 1rem;
     border-left: 3px solid #1b1B1B;
+    height: 100%;
 }
 
 main .main-container {
@@ -144,7 +145,7 @@ main .img-container {
 main img {
     margin-right: 10rem;
     width: 285px; /* 728x954 */
-    height: 506px;
+    height: 506px; /* */
     border: 5px solid #1b1B1B;
     border-radius: 10%;
     box-shadow: 4px 4px 4px #1b1b1b;

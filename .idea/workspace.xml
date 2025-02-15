@@ -4,20 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1fe024ab-6118-40ec-974f-4e150b131dee" name="Changes" comment="update: README.md">
-      <change afterPath="$PROJECT_DIR$/src/awards.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/awards.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/personal.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/personal.html" afterDir="false" />
+    <list default="true" id="1fe024ab-6118-40ec-974f-4e150b131dee" name="Changes" comment="update files">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/author.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/author.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/author.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/author.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/babel.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/babel.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/book.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/book.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/home.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/thepoppywar.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/thepoppywar.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/yellowface.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/yellowface.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/personal.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/personal.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,7 +99,7 @@
       <workItem from="1739409089826" duration="2122000" />
       <workItem from="1739411239409" duration="194000" />
       <workItem from="1739460985392" duration="1230000" />
-      <workItem from="1739567097866" duration="13996000" />
+      <workItem from="1739567097866" duration="14970000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <option name="closed" value="true" />
@@ -199,7 +189,15 @@
       <option name="project" value="LOCAL" />
       <updated>1739411416328</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="update files">
+      <option name="closed" value="true" />
+      <created>1739582242983</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1739582242983</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -224,6 +222,7 @@
     <MESSAGE value="add: README.md" />
     <MESSAGE value="dummy commit" />
     <MESSAGE value="update: README.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="update: README.md" />
+    <MESSAGE value="update files" />
+    <option name="LAST_COMMIT_MESSAGE" value="update files" />
   </component>
 </project>
