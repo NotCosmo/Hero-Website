@@ -104,24 +104,22 @@ main .author-content h1 {
     padding: 0;
     margin: 0;
     font-size: 3.5rem;
+    text-align: center;
     color: #1b1b1b;
 }
 
 main .author-content h2 {
     padding: 1rem 0 0 0;
     margin: 0 3.5rem;
+    text-align: center;
     font-size: 1.75rem;
     color: #1b1b1b;
 }
 
 main .author-content p {
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    margin: 0;
     font-size: 1.15rem;
     text-align: center;
     color: #1b1b1b;
-    width: 65%;
 }
 
 main .author-content p #awards-text a {
@@ -143,13 +141,8 @@ main .author-content p a:hover {
 /* Full Bio Button */
 main .author-content h3 {
     padding: 0;
-    margin: 0 6rem;
     color: #1b1b1b;
     text-align: center;
-    border: #1B1B1B solid 2px;
-    border-radius: 3px;
-    box-shadow: 2px 2px 2px #1B1B1B;
-    width: 30%;
 }
 
 main .author-content a {
@@ -157,19 +150,9 @@ main .author-content a {
     text-decoration: none;
 }
 
-@media (hover: hover) {
-    #bio-text:hover {
-        font-size: 1.25rem;
-        background-color: #7D70BA;
-    }
+#bio-button {
+    border-bottom: 3px solid #7D70BA;
 }
-
-/*
-main .author-content h3 a:hover {
-    text-decoration: underline;
-    font-style: italic;
-}
-*/
 
 /* Image */
 .author-image img {
@@ -375,4 +358,81 @@ footer p {
     color: #CBD2D0;
     margin: 0;
     padding: 2.5rem 0;
+}
+
+/* Media Queries for Responsive Design */
+
+@media (max-width: 950px) {
+    #masthead {
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #1B1B1B;
+    }
+
+    #masthead h1 {
+        margin-bottom: 0;
+    }
+
+    #masthead nav ul {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    #masthead nav ul li {
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .nav-link {
+        color: #fff;
+        border-bottom: 3px solid #7D70BA;
+    }
+
+    /* Do not render pseudoelement */
+    .nav-link::after {
+        content: none;
+    }
+
+    main {
+        padding: 6rem 0 4rem 0;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    main .author-content {
+        margin-top: 2rem;
+        width: 50%;
+    }
+
+    #books-section .books {
+        flex-direction: column;
+    }
+
+    #books-section .book {
+        margin-top: 2rem;
+    }
+
+    #future-projects {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .project-content {
+        margin-left: 0;
+        border: none;
+    }
+
+    .project-image img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
 }

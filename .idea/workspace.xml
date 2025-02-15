@@ -6,7 +6,19 @@
   <component name="ChangeListManager">
     <list default="true" id="1fe024ab-6118-40ec-974f-4e150b131dee" name="Changes" comment="update files">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/rf-kuang-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/author.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/author.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/author.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/author.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/awards.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/awards.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/awards.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/awards.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/babel.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/babel.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/book.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/book.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/home.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/personal.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/personal.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/personal.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/personal.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/thepoppywar.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/thepoppywar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/yellowface.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/yellowface.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,6 +113,8 @@
       <workItem from="1739567097866" duration="15514000" />
       <workItem from="1739583649048" duration="49000" />
       <workItem from="1739583784144" duration="21000" />
+      <workItem from="1739583824516" duration="629000" />
+      <workItem from="1739656420087" duration="4774000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <option name="closed" value="true" />
@@ -206,7 +220,15 @@
       <option name="project" value="LOCAL" />
       <updated>1739583371614</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="update files">
+      <option name="closed" value="true" />
+      <created>1739583858075</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1739583858075</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

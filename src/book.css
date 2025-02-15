@@ -102,7 +102,6 @@ main p {
     margin-top: 1rem;
     font-size: 1rem;
     padding-left: 2rem;
-    width: 100%;
 }
 
 main h2 {
@@ -152,6 +151,10 @@ main article {
     border-left: 3px solid #1b1b1b;
 }
 
+.book-content p {
+    width: 100%;
+}
+
 #book-content {
     padding-left: 5rem;
     border-left: 3px solid #1b1B1B;
@@ -160,10 +163,7 @@ main article {
 .book-cover {
     width: 285px;
     height: 428px;
-    margin-top: 2rem;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 2.5rem;
+    margin: 2rem auto 2.5rem;
     box-shadow: 4px 4px 4px 3px #1B1B1B;
 }
 
@@ -180,4 +180,66 @@ footer p {
     color: #CBD2D0;
     margin: 0;
     padding: 2.5rem 0;
+}
+
+/* Media Queries */
+
+@media (max-width: 880px) {
+    #masthead {
+        flex-direction: column;
+    }
+
+    #masthead h1 {
+        margin-bottom: 0;
+    }
+
+    #masthead nav ul {
+        flex-direction: column;
+        text-align: center;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    #masthead nav ul li {
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .nav-link {
+        color: #fff;
+        border-bottom: 3px solid #7D70BA;
+    }
+
+    /* Do not render pseudoelement */
+    .nav-link::after {
+        content: none;
+    }
+
+    main article {
+        flex-direction: column;
+    }
+
+    .book-content {
+        margin: 2rem 0 0;
+        width: 100%;
+        text-align: center;
+        border: none;
+
+    }
+
+    .book-content .book {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .book-content p {
+        padding: 0;
+    }
+
+    .book-content .book-text {
+        text-align: center;
+        width: 80%;
+        margin: auto;
+    }
 }
