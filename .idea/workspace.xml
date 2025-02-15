@@ -5,20 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1fe024ab-6118-40ec-974f-4e150b131dee" name="Changes" comment="update files">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/static.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/CNAME" beforeDir="false" afterPath="$PROJECT_DIR$/src/CNAME" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/author.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/author.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/author.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/author.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/awards.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/awards.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/awards.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/awards.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/babel.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/babel.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/book.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/book.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/home.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/personal.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/personal.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/personal.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/personal.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/thepoppywar.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/thepoppywar.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/yellowface.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/yellowface.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,7 +101,7 @@
       <workItem from="1739583649048" duration="49000" />
       <workItem from="1739583784144" duration="21000" />
       <workItem from="1739583824516" duration="629000" />
-      <workItem from="1739656420087" duration="5683000" />
+      <workItem from="1739656420087" duration="6896000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <option name="closed" value="true" />
@@ -243,7 +231,15 @@
       <option name="project" value="LOCAL" />
       <updated>1739661711469</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="update files">
+      <option name="closed" value="true" />
+      <created>1739662496907</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1739662496907</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
