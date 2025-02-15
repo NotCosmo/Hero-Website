@@ -4,7 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1fe024ab-6118-40ec-974f-4e150b131dee" name="Changes" comment="add: README.md" />
+    <list default="true" id="1fe024ab-6118-40ec-974f-4e150b131dee" name="Changes" comment="update: README.md">
+      <change afterPath="$PROJECT_DIR$/src/awards.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/awards.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/personal.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/personal.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/author.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/author.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/author.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/author.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/babel.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/babel.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/book.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/book.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/home.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/thepoppywar.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/thepoppywar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/yellowface.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/yellowface.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,8 +27,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -46,10 +60,12 @@
   "keyToString": {
     "DefaultHtmlFileTemplate": "HTML File",
     "JavaScript Debug.author.html.executor": "Run",
-    "JavaScript Debug.home.html.executor": "Debug",
+    "JavaScript Debug.home.html.executor": "Run",
     "JavaScript Debug.test.html.executor": "Run",
+    "JavaScript Debug.thepoppywar.html.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
     "last_opened_file_path": "C:/Users/User/Desktop/CS Year 1/Client Side Web Development/Assignments/Hero Website/src",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
@@ -65,8 +81,9 @@
       <recent name="C:\Users\User\Desktop\CS Year 1\Client Side Web Development\Assignments\Hero Website\src" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\User\Desktop\CS Year 1\Client Side Web Development\Assignments\Hero Website" />
+      <recent name="C:\Users\User\Desktop\CS Year 1\Client Side Web Development\Assignments\Hero Website\images" />
       <recent name="C:\Users\User\Desktop\CS Year 1\Client Side Web Development\Assignments\Hero Website\src" />
+      <recent name="C:\Users\User\Desktop\CS Year 1\Client Side Web Development\Assignments\Hero Website" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -90,6 +107,9 @@
       <workItem from="1739208522304" duration="1901000" />
       <workItem from="1739268377998" duration="20332000" />
       <workItem from="1739409089826" duration="2122000" />
+      <workItem from="1739411239409" duration="194000" />
+      <workItem from="1739460985392" duration="1230000" />
+      <workItem from="1739567097866" duration="13996000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <option name="closed" value="true" />
@@ -147,7 +167,39 @@
       <option name="project" value="LOCAL" />
       <updated>1739410868032</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="update: README.md">
+      <option name="closed" value="true" />
+      <created>1739411258047</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1739411258047</updated>
+    </task>
+    <task id="LOCAL-00009" summary="dummy commit">
+      <option name="closed" value="true" />
+      <created>1739411319105</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1739411319105</updated>
+    </task>
+    <task id="LOCAL-00010" summary="update: README.md">
+      <option name="closed" value="true" />
+      <created>1739411339518</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1739411339518</updated>
+    </task>
+    <task id="LOCAL-00011" summary="update: README.md">
+      <option name="closed" value="true" />
+      <created>1739411416328</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1739411416328</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -170,6 +222,8 @@
     <MESSAGE value="feat: add author.html and author.css" />
     <MESSAGE value="feat: add pages for each book + style, update home page styling" />
     <MESSAGE value="add: README.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="add: README.md" />
+    <MESSAGE value="dummy commit" />
+    <MESSAGE value="update: README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="update: README.md" />
   </component>
 </project>

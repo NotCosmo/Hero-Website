@@ -88,83 +88,71 @@ body {
 /* Main */
 
 main {
-    margin: 1rem 0;
+    margin: 0 0;
+    padding: 3rem 0;
     height: 100%;
+    background-image: linear-gradient(to top, #c8d0ce, #e4e7e6);
+}
+
+main .about-content {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1rem;
+    border-left: 3px solid #1b1B1B;
+}
+
+main .main-container {
+    display: flex;
+    flex-direction: row;
 }
 
 main h1 {
-    font-size: 1.75rem;
     padding-left: 1rem;
-    margin: 0;
-}
-
-main p {
-    margin-top: 1rem;
-    font-size: 1rem;
-    padding-left: 2rem;
-    width: 100%;
+    font-family: 'Tinos Regular', serif;
 }
 
 main h2 {
-    padding-left: 2rem;
-    font-size: 0.75rem;
-    color: #7D70BA;
-}
-
-main h2 .publish-text {
-    color: #1b1b1b;
-}
-
-.publish-heading {
-    padding-top: 0.5rem;
+    margin-top: .5rem;
     margin-bottom: 0;
+    padding: 0 0 0 1.5rem;
+    font-family: 'Tinos Regular', serif;
 }
 
-.genre-heading {
-    padding-top: 0.25rem;
-    margin-top: 0;
-}
-
-main h2 .genre-text {
-    color: #1b1b1b;
+main p {
+    margin: 1rem 0 0;
+    padding-left: 2rem;
+    font-family: 'Tinos Regular', serif;
+    width: 65%;
 }
 
 main h3 {
-    padding-bottom: 0;
-    margin-bottom: 0;
     padding-left: 2rem;
     font-family: 'Tinos Regular', serif;
     font-size: 0.75rem;
     color: #7D70BA;
 }
 
-main article {
+/* Author Image */
+
+main .img-container {
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-.book-content {
-    margin-top: 2rem;
-    margin-left: 2rem;
-    margin-bottom: 2rem;
-    width: 50%;
-    border-left: 3px solid #1b1b1b;
+main img {
+    margin-right: 10rem;
+    width: 285px; /* 728x954 */
+    height: 506px;
+    border: 5px solid #1b1B1B;
+    border-radius: 10%;
+    box-shadow: 4px 4px 4px #1b1b1b;
 }
 
-#book-content {
-    padding-left: 5rem;
-    border-left: 3px solid #1b1B1B;
-}
-
-.book-cover {
-    width: 285px;
-    height: 428px;
-    margin-top: 2rem;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 2.5rem;
-    box-shadow: 4px 4px 4px 3px #1B1B1B;
+main .img-container p {
+    font-size: 0.75rem;
+    padding-left: 9rem;
 }
 
 /* Footer */

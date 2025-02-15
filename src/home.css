@@ -49,9 +49,9 @@ body {
 
 #masthead nav ul li {
     list-style: none;
-    padding-left: 0.75rem;
-    padding-right: 0.75rem;
-    margin-right: 1rem;
+    padding-left: 0.35rem;
+    padding-right: 0.35rem;
+    margin-right: .75rem;
     font-size: 1.25rem;
 }
 
@@ -158,7 +158,7 @@ main .author-content a {
 }
 
 @media (hover: hover) {
-    h3:hover {
+    #bio-text:hover {
         font-size: 1.25rem;
         background-color: #7D70BA;
     }
@@ -193,7 +193,6 @@ main .author-content h3 a:hover {
     padding: 2rem 0;
     margin: 0;
     text-align: center;
-
 }
 
 #books-section .books {
@@ -273,6 +272,95 @@ main .author-content h3 a:hover {
     transform: rotateY(180deg);
 }
 
+/* Future Projects */
+
+#future-projects {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.project-content {
+    margin-left: 2rem;
+    width: 50%;
+    border-left: 3px solid #1b1b1b;
+}
+
+.project-content h2 {
+    font-size: 1.75rem;
+    padding-left: 1rem;
+    margin: 0;
+}
+
+.project-content p {
+    margin-top: 1rem;
+    font-size: 1rem;
+    padding-left: 2rem;
+    width: 100%;
+}
+
+.project-content h3 {
+    padding-bottom: 0;
+    margin-bottom: 0;
+    padding-left: 2rem;
+    font-family: 'Tinos Regular', serif;
+    font-size: 0.75rem;
+    color: #7D70BA;
+}
+
+.project-content .publish-heading {
+    font-size: 0.8rem;
+    padding-top: 1rem;
+    margin-left: 1rem;
+    color: #7D70BA;
+}
+
+.project-content .genre-heading{
+    font-size: 0.8rem;
+    padding-top: 0.5rem;
+    margin-left: 1rem;
+    color: #7D70BA;
+}
+
+.project-content .publish-text, .genre-text {
+    color: #1b1b1b;
+}
+
+.project-image img {
+    margin-top: 2rem;
+    width: 285px;
+    height: 428px;
+    cursor: pointer;
+    box-shadow: 4px 4px 4px 3px #1B1B1B;
+}
+
+
+/* Why */
+
+#why-section {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    border-top: 6rem solid #1B1B1B;
+    background-image: linear-gradient(to bottom, #e4e7e6, #adb8b4);
+}
+
+#why-section h1 {
+    font-size: 3rem;
+    color: #1b1b1b;
+    padding: 2rem 0;
+    margin: 0;
+    text-align: center;
+}
+
+#why-section p {
+    padding-bottom: 2rem;
+    margin: 0;
+    justify-self: center;
+    text-align: center;
+    width: 50%;
+}
 
 /* Footer */
 
