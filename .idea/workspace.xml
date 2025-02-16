@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1fe024ab-6118-40ec-974f-4e150b131dee" name="Changes" comment="update files">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="1fe024ab-6118-40ec-974f-4e150b131dee" name="Changes" comment="move images folder out of src" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,12 +27,12 @@
     &quot;assignee&quot;: &quot;NotCosmo&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/NotCosmo/Hero-Website.git&quot;,
-    &quot;accountId&quot;: &quot;d62f5015-8ec7-4ab6-8978-4cb1049cbbd3&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/dulgherucosmin/Hero-Website.git",
+    "accountId": "d62f5015-8ec7-4ab6-8978-4cb1049cbbd3"
   }
-}</component>
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
 }</component>
@@ -44,31 +41,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;JavaScript Debug.author.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.home.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.test.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.thepoppywar.html.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/User/Desktop/CS Year 1/Client Side Web Development/Assignments/Hero Website/src&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "JavaScript Debug.author.html.executor": "Run",
+    "JavaScript Debug.home.html.executor": "Run",
+    "JavaScript Debug.index.html.executor": "Debug",
+    "JavaScript Debug.test.html.executor": "Run",
+    "JavaScript Debug.thepoppywar.html.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/User/Desktop/CS Year 1/Client Side Web Development/Assignments/Hero Website/src",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\User\Desktop\CS Year 1\Client Side Web Development\Assignments\Hero Website\src" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\User\Desktop\CS Year 1\Client Side Web Development\Assignments\Hero-Website" />
       <recent name="C:\Users\User\Desktop\CS Year 1\Client Side Web Development\Assignments\Hero Website\images" />
       <recent name="C:\Users\User\Desktop\CS Year 1\Client Side Web Development\Assignments\Hero Website\src" />
       <recent name="C:\Users\User\Desktop\CS Year 1\Client Side Web Development\Assignments\Hero Website" />
@@ -102,6 +101,7 @@
       <workItem from="1739583784144" duration="21000" />
       <workItem from="1739583824516" duration="629000" />
       <workItem from="1739656420087" duration="6896000" />
+      <workItem from="1739729062663" duration="319000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <option name="closed" value="true" />
@@ -239,7 +239,15 @@
       <option name="project" value="LOCAL" />
       <updated>1739662496907</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="move images folder out of src">
+      <option name="closed" value="true" />
+      <created>1739729099213</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1739729099213</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -265,6 +273,7 @@
     <MESSAGE value="dummy commit" />
     <MESSAGE value="update: README.md" />
     <MESSAGE value="update files" />
-    <option name="LAST_COMMIT_MESSAGE" value="update files" />
+    <MESSAGE value="move images folder out of src" />
+    <option name="LAST_COMMIT_MESSAGE" value="move images folder out of src" />
   </component>
 </project>
