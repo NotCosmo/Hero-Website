@@ -1,12 +1,12 @@
 /* Fonts */
 @font-face {
     font-family: 'Tinos Regular';
-    src: url("fonts/Tinos-Regular.ttf");
+    src: url("../fonts/Tinos-Regular.ttf");
 }
 
 @font-face {
     font-family: 'Tinos Bold';
-    src: url("fonts/Tinos-Bold.ttf");
+    src: url("../fonts/Tinos-Bold.ttf");
 }
 
 body {
