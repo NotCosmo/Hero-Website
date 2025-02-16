@@ -6,7 +6,7 @@ We were tasked to create a website about one of our heroes, in which case I have
 
 ## Showcase
 
-![alttext](src/images/showcase.png)
+![alttext](images/showcase.png)
 
 ## File Structure
 
